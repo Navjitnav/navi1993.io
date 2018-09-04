@@ -4,6 +4,10 @@
 body{
 	 font-family: 'apercuregular';
 }
+p {
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
 @font-face {
     font-family: 'noemiescriptregular';
     src: url('../fonts/noemiescript-webfont.woff2') format('woff2'),
@@ -304,19 +308,84 @@ button.btn.navbar-btn.btn-link.pull-right:focus {
 }
 .heading span {
     color: #e91e63;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 24px;
+	margin-bottom: 50px;
+    display: inline-block;	
 }
-
+.heading{
+	display:inline-block;
+	width:100%;
+}
 .heading h2 {
     color: #e91e63;
     font-size: 64px;
     font-weight: 700;
     line-height: 68px;
-    width: 690px;
     text-align: center;
-    margin:  0 auto;
-    margin-top: 15px;
-	margin-bottom: 50px;
+	font-family: 'noemiescriptregular';	
 }
+.pink{
+	background-color:#e91e63;
+}
+.heading.white h2,p{
+	color:#fff;
+}
+.heading.white h2 {
+    margin-top: 55px;
+}
+.blue h2{
+	color:#112071;
+}
+.skill-main .icon i {
+    font-size: 30px;
+    color: #fff;
+}
+.skill-main .icon {
+    text-align: center;
+}
+.skill-main .circle {
+    width:  150px;
+    height:  150px;
+    background-color: #112071;
+    margin:  0 auto;
+    padding: 60px;
+    border-radius:  50%;
+	transition:all .3s ease-in;
+}
+.skill-main .border {
+    border: 2px solid #112071 !important;
+    padding:  30px;
+    border-radius: 50%;
+    height: 215px;
+    width: 215px;
+    margin:  0 auto;
+}
+.skill-main:hover .border .circle {
+    box-shadow: 0px 0px 5px 15px rgba(233, 30, 99, 0.44);
+    background-color: #e91e63;	
+}
+.skill-main:hover .border {
+    border-color: #e91e63 !important;
+}
+.skill-main:hover h3 {
+    color: #e91e63;
+}
+.skill-main:hover p {
+    color: #e91e63;
+}
+.skill-main h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #e91e63;
+    font-weight: bold;
+}
+.skill-main h3 {
+    text-align:  center;
+    margin-top:  20px;
+    color: #112071;
+    font-weight:  bold;
+}
+
+.skill-main p {text-align: center;color: #112071;}
