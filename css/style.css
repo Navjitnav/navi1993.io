@@ -388,3 +388,17 @@ button.btn.navbar-btn.btn-link.pull-right:focus {
 }
 
 .skill-main p {text-align: center;color: #112071;}
+
+.padding.pink:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    position:  absolute;
+    top: -42px;
+    left: 19%;
+    color: #fff;
+    font-size: 65px;
+}
+
+.padding.pink {
+    position:  relative;
+}
