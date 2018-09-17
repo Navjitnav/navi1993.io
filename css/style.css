@@ -485,6 +485,7 @@ ul.nav.navbar-nav.navbar-left li a {
     vertical-align: super;
 }
 }
+@media (max-width:767px){
 button.navbar-toggle {
     float: right;
     background-color: transparent;
@@ -526,4 +527,4 @@ button.navbar-toggle:focus {
 }
 .scrolled div#myNavbar {
     top: 70px;
-}
+}}
