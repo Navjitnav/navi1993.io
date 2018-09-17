@@ -445,15 +445,7 @@ button.btn.navbar-btn.btn-link.pull-right:focus {
     font-size: 55px;
     color: #112071;
 }
-button.navbar-toggle {
-    display: none;
-}
 
-ul.nav.navbar-nav.navbar-left {
-    display: inline-block;
-    float: right;
-	margin-top: 10px;	
-}
 nav.navbar.navbar-inverse.scrolled {
     background-color: #e91e63;
     position: fixed;
@@ -462,6 +454,16 @@ nav.navbar.navbar-inverse.scrolled {
     top: 0;
     height: 70px;
 }
+@media (min-width:768px){
+	button.navbar-toggle {
+    display: none;
+}
+ul.nav.navbar-nav.navbar-left {
+    display: inline-block;
+    float: right;
+	margin-top: 10px;	
+}
+
 div#myNavbar {
     display: block;
     display: inline-block;
@@ -481,4 +483,43 @@ ul.nav.navbar-nav.navbar-left li a {
     font-family: 'noemiescriptregular';
     font-size: 20px;
     vertical-align: super;
+}
+}
+button.navbar-toggle {
+    float: right;
+    background-color: transparent;
+    border: none;	
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+div#myNavbar {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background-color: #e91e63;
+}
+
+ul.nav.navbar-nav.navbar-left li a {color: #fff;}
+
+ul.nav.navbar-nav.navbar-left li {
+    text-align: center;
+    font-family: 'noemiescriptregular';
+    font-size: 20px;
+    padding: 5px 0px;
+    border-top: 1px solid #fff;
+}
+button.navbar-toggle .icon-bar {
+    height: 5px;
+    width: 30px;
+    background-color: #112071;
+    display: block;
+    margin-bottom: 5px;
+}
+
+button.navbar-toggle:focus {
+    outline: none;
 }
