@@ -488,7 +488,8 @@ ul.nav.navbar-nav.navbar-left li a {
 button.navbar-toggle {
     float: right;
     background-color: transparent;
-    border: none;	
+    border: none;
+    margin-top: 6px;	
 }
 
 .navbar-header {
@@ -522,4 +523,7 @@ button.navbar-toggle .icon-bar {
 
 button.navbar-toggle:focus {
     outline: none;
+}
+.scrolled div#myNavbar {
+    top: 70px;
 }
