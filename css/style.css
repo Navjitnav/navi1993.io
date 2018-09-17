@@ -436,3 +436,11 @@ button.btn.navbar-btn.btn-link.pull-right:focus {
 .port-img:hover .overlay h3 {
     opacity:  1;
 }
+.follow-link {
+    text-align: center;
+}
+
+.follow-link i {
+    font-size: 55px;
+    color: #112071;
+}
