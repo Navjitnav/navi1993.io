@@ -103,13 +103,13 @@ a:hover,a:focus{
 .navbar-header {
   float: none;
 }
-.modal {
+/* .modal {
     background-color: #e91e63;
-}	
+} */	
 .relative {
     position: relative;
 }
-.modal-fullscreen-menu .close {
+/* .modal-fullscreen-menu .close {
   color: white;
   opacity: 1;
   padding: 10px;
@@ -161,7 +161,7 @@ nav.list-group {
 .modal-fullscreen-menu .list-group a:hover:before {
   transform: translate3d(0, 0, 0);
   opacity: 1;
-}
+} */
 button.btn.navbar-btn.btn-link.pull-right {
     float: right;
 }
@@ -170,6 +170,7 @@ button.btn.navbar-btn.btn-link.pull-right {
     border: none;
     border-radius:  0px;
 	height: 80px;
+    transition: all .3s ease-in;	
 }
 button.close:focus {
     outline: 0;
@@ -178,9 +179,9 @@ header .modal-dialog {
     pointer-events: auto;
 }
 
-.navbar-header {
+/* .navbar-header {
    width:100%;
-}
+} */
 a.navbar-brand {
 	font-size:22px;
 	line-height: 30px;
@@ -194,7 +195,7 @@ a.navbar-brand {
     background-color: #e91e63;
     padding: 20px 0px;
 }
-.modal-fullscreen-menu .list-group a:after {
+/* .modal-fullscreen-menu .list-group a:after {
     content:  "";
     position:  absolute;
     display:  inline-block;
@@ -205,7 +206,7 @@ a.navbar-brand {
     bottom: 11px;
     transition: .3s ease-in;
     z-index: -1;
-}
+} */
 .copyright a.navbar-brand {
     margin: 0;
     padding-top: 10px;
@@ -443,4 +444,41 @@ button.btn.navbar-btn.btn-link.pull-right:focus {
 .follow-link i {
     font-size: 55px;
     color: #112071;
+}
+button.navbar-toggle {
+    display: none;
+}
+
+ul.nav.navbar-nav.navbar-left {
+    display: inline-block;
+    float: right;
+	margin-top: 10px;	
+}
+nav.navbar.navbar-inverse.scrolled {
+    background-color: #e91e63;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    height: 70px;
+}
+div#myNavbar {
+    display: block;
+    display: inline-block;
+    float: right;
+    flex-grow: inherit;
+    flex-basis: auto;
+    text-align: right;
+}
+
+ul.nav.navbar-nav.navbar-left li {
+    display: inline-block;
+}
+
+ul.nav.navbar-nav.navbar-left li a {
+    color: white;
+    padding: 0px 15px;
+    font-family: 'noemiescriptregular';
+    font-size: 20px;
+    vertical-align: super;
 }
